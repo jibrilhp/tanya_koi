@@ -24,11 +24,12 @@ $Configuration['EnabledPlugins']['Facebook'] = true;
 $Configuration['EnabledPlugins']['Flagging'] = true;
 $Configuration['EnabledPlugins']['VanillaStats'] = true;
 $Configuration['EnabledPlugins']['cleditor'] = false;
-$Configuration['EnabledPlugins']['ButtonBar'] = false;
+$Configuration['EnabledPlugins']['ButtonBar'] = true;
 $Configuration['EnabledPlugins']['Emotify'] = false;
 $Configuration['EnabledPlugins']['FileUpload'] = false;
 $Configuration['EnabledPlugins']['editor'] = true;
 $Configuration['EnabledPlugins']['EmojiExtender'] = true;
+$Configuration['EnabledPlugins']['AllViewed'] = true;
 
 // Garden
 $Configuration['Garden']['Title'] = 'Koi Forum';
@@ -59,6 +60,7 @@ $Configuration['Garden']['InstallationSecret'] = '64201ca143bc9f726d84ccbb71d58c
 $Configuration['Plugins']['GettingStarted']['Dashboard'] = '1';
 $Configuration['Plugins']['GettingStarted']['Plugins'] = '1';
 $Configuration['Plugins']['GettingStarted']['Categories'] = '1';
+$Configuration['Plugins']['GettingStarted']['Discussion'] = '1';
 $Configuration['Plugins']['Twitter']['ConsumerKey'] = 'dQFpb8Q1QINPAcgPe62L9kd5r';
 $Configuration['Plugins']['Twitter']['Secret'] = 'Wv14ts4ozKXRd5rNGqqpiOu36s3tZfxogRiALsU7vjH7pBWNpG';
 $Configuration['Plugins']['Twitter']['SocialSignIn'] = false;
@@ -82,4 +84,4 @@ $Configuration['Vanilla']['Comment']['MinLength'] = '15';
 $Configuration['Vanilla']['AdminCheckboxes']['Use'] = false;
 $Configuration['Vanilla']['Categories']['Layout'] = 'modern';
 
-// Last edited by admin (127.0.0.1)2017-10-01 12:03:12
+// Last edited by admin (127.0.0.1)2017-10-03 16:43:09
